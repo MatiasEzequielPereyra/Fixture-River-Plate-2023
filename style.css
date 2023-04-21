@@ -1,14 +1,22 @@
 
 
+
 body, h1,  p, ul, li {
     margin: 0;
     padding: 0;
   }
   
+  h3{
+    position: relative;
+    margin-left: 850px;
+    font-weight: 600px;
+    font-size: 40px;
+  }
 
   body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    
   }
   
 
@@ -16,22 +24,29 @@ body, h1,  p, ul, li {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    
   }
-  
+  .partido flex-column just-start{
+    border-color: red;
+  }
 
   .partido {
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 500px;
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-color: darkred;
+    border-style:ridge;
+    min-width: 500px;
+
   }
   
 
   .fecha {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: #333333;
     margin-bottom: 10px;
@@ -42,7 +57,11 @@ body, h1,  p, ul, li {
     font-size: 18px;
     color: #666666;
     margin-bottom: 10px;
-    ;
+    position:relative;
+    align-items: flex-end;
+    grid-template-columns: minmax(1,3);
+    content:normal;
+    
   }
   
 
@@ -67,6 +86,7 @@ body, h1,  p, ul, li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -92,8 +112,10 @@ margin-top:50px
 
 .informacion{
     text-align: center;
-    display:contents;
-    ;
+    position:relative;
+    margin-bottom : 10px;
+   
+    
 }
 
 .buttonInputLeft{
@@ -102,14 +124,32 @@ margin-top:50px
     place-items:initial;
     width: 4em;
     height: 4em;
+    margin-right: 600px;
+    margin-top: 20px;
+    font-size: 13px;
+    
+}
+.buttonInputRight{
+    
+    align-items: right;
+    display:flex;
+    width: 4em;
+    height: 4em;
+    margin-right: -600px;
+    margin-top: -60px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
 .logoTorneo{
+    position: relative;
     width: 3em;
-    position:inherit;
+    position:flex;
     margin-right:0px;
     margin-left: -50px;
+    margin-top:10px;
+
 }
 .torneoMain{
     display:flexbox;
@@ -119,5 +159,33 @@ margin-top:50px
     margin-right:50px
 }
 .torneo{
-    display: fixed;
+    display:relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:20px;
+    margin-left: 50px;
+    padding: 0;
+    font-style:oblique;
+    font-display:initial;
+    color: rgb(#333333,#c0392b, #c0392b);
+    font-weight: 900;
+    pointer-events:visible;
+    top:50%;
+    left: 100%;
+    font-display:relative;
+    font-variant: small-caps;
+    font-stretch: extra-condensed;
+
+    border-radius: 10px;
+    content: normal;
+    font:500
+}
+.estadio{
+    position: absolute;
+    display:grid;
+    max-width: 400px;
+    border-radius: 100em;
+    margin-top: 140px;
+    min-width: 400px;
+    min-height: 200px;
+    max-height: 200px;
 }
