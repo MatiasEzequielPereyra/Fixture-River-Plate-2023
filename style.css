@@ -1,0 +1,106 @@
+
+body, h1, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  .partido {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .fecha {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+
+  .local, .vs, .visitante, .info {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 10px;
+    ;
+  }
+  
+
+  .btn {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+
+  .btn:hover {
+    background-color: #c0392b;
+  }
+  
+
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.logoIzquierda{
+
+width: 100px;
+
+margin-top:50px
+}
+.logoDerecha{
+  
+   width: 100px;
+    
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.logos{
+    align-items: center;
+    display:flex;
+}
+
+
+.informacion{
+    text-align: center;
+    display:contents;
+    ;
+}
+
+.buttonInputLeft{
+    
+    align-items: left;
+    place-items:initial;
+    width: 4em;
+    height: 4em;
+    position: ;
+    text-emphasis-color: green;
+}
