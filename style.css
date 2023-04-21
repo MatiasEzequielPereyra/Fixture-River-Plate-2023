@@ -1,5 +1,6 @@
 
-body, h1, h3, p, ul, li {
+
+body, h1,  p, ul, li {
     margin: 0;
     padding: 0;
   }
@@ -101,6 +102,22 @@ margin-top:50px
     place-items:initial;
     width: 4em;
     height: 4em;
-    position: ;
-    text-emphasis-color: green;
+    
+}
+
+.logoTorneo{
+    width: 3em;
+    position:inherit;
+    margin-right:0px;
+    margin-left: -50px;
+}
+.torneoMain{
+    display:flexbox;
+    margin-left:50px;
+    margin-bottom: 0px;
+    
+    margin-right:50px
+}
+.torneo{
+    display: fixed;
 }
